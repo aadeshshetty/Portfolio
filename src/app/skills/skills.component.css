@@ -1,0 +1,36 @@
+.fa-star{
+    padding-right: 0.5rem;
+    color: black;
+    transition: all 0.4s ease-in-out;
+}
+.fa-star-half-alt{
+    padding-right: 0.5rem;
+    color: gold;
+    transition: all 0.4s ease-in-out;
+}
+.clicked{
+    color: gold;
+}
+
+.row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card{
+    transition: all 0.5s;
+}
+.card:hover{
+    box-shadow: -6px 6px 0 darkgoldenrod;
+}
+.card:hover .fa-star, .card:hover .fa-star-half-alt{
+    font-size: x-large;
+    transform: rotateY(180deg);
+}
+
+@media (max-width:768px) {
+    .col{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}

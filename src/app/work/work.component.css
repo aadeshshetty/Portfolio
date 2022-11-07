@@ -1,0 +1,30 @@
+.card{
+    width: 25rem;
+    height: 560px;
+    transition: all 0.5s;
+}
+.card:hover{
+    box-shadow: -6px 6px 0 darkgoldenrod;
+}
+
+.card{
+    overflow: hidden;
+}
+.card-img-top{
+    height: 400px;
+    width: 400px;
+    transition: all 0.4s ease;
+}
+.card:hover .card-img-top{
+    transform: scale(1.1);
+}
+
+#work{
+    padding-top: 50px!important;
+}
+
+@media (max-width:992px) {
+    #work{
+    padding-top: 80px!important;
+}
+}

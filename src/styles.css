@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+body{
+    background-color: black;
+    font-family: "Bai Jamjuree",sans-serif;
+    color: rgb(184, 147, 54);
+}
+h1,h2,h3,h4,h5,h6{
+    color: goldenrod;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: gold;
+    transition: all 0.4s ease;
+}
+a:hover{
+    color: darkgoldenrod;
+}
+
+img{
+    width: 100%;
+}
+
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.text-brand{
+    color: rgb(155, 121, 34);
+}
+
+::selection {
+    color: black;
+    background: darkgoldenrod;
+  }
+
+@media(min-width:992px) {
+    .content-wrapper{
+        padding-left: 250px;
+    }
+}

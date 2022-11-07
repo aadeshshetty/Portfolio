@@ -1,0 +1,31 @@
+.navbar{
+    background-color: rgb(64, 64, 64);
+}
+
+.navbar .nav-link{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: goldenrod;
+    transition: font-size 0.4s;
+}
+.navbar .nav-link:hover{
+    color: darkgoldenrod;
+}
+
+.active{
+    color:darkgoldenrod !important;
+    font-size: 1.5rem;
+    transition: font-size 0.4s ease-out;
+}
+
+@media(min-width:992px){
+    .navbar{
+        min-height: 100vh;
+        width: 240px;
+        background:linear-gradient(rgba(64, 64, 64, 0.9),rgba(64, 64, 64, 0.9));
+    }
+
+    .navbar-brand img{
+        border: 8px solid goldenrod;
+    }
+}

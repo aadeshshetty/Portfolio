@@ -1,0 +1,28 @@
+.btn-goldenrod{
+    background-color: goldenrod;
+    display: inline;
+}
+.btn-goldenrod:hover,
+.btn-goldenrod:focus{
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+.custom{
+    font-weight: 700;
+    position: relative;
+}
+.custom::before{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: darkgoldenrod;
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s;
+}
+.custom:hover::before{
+    width: 100%;
+}
+
