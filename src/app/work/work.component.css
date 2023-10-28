@@ -1,5 +1,5 @@
 .card{
-    width: 25rem;
+    max-width: 25rem;
     height: 560px;
     transition: all 0.5s;
 }
